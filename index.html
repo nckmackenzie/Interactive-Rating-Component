@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Rating Component</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <article class="active rating">
+          <div class="rating__icon">
+            <img src="img/icon-star.svg" alt="Star icon" class="rating__icon" />
+          </div>
+          <h2 class="rating__heading">How did we do?</h2>
+          <p class="rating__info">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="rating__scores">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+          </div>
+          <button class="submit">Submit</button>
+        </article>
+        <article class="inactive score">
+          <div class="score__img">
+            <img
+              src="./img/illustration-thank-you.svg"
+              alt="Thank you illustration"
+              class=""
+            />
+          </div>
+          <h3 class="score__info"></h3>
+          <h4 class="score__tertiary">Thank You!</h4>
+          <p class="score__gratitude">
+            We appreciate you taking your time to give a rating. If you ever
+            need more support, don't hesitate to get in touch
+          </p>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
